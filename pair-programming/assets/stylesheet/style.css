@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Quicksand', sans-serif;
+
 }
 ol, ul {
 	list-style: none;
@@ -91,7 +93,7 @@ a {
 	text-transform: uppercase;
 	font-size:22px;
 	margin-left: 8px;
-	font-weight: 800;
+	font-weight: 700;
 }
 
 /* section-1  */
@@ -112,6 +114,8 @@ a {
 .sec-heading {
 	font-size: 32px;
 	color: white;
+	font-family: 'Hind', sans-serif;
+	font-weight: 600;
 }
 
 .right-row {
@@ -156,6 +160,8 @@ a {
 	text-transform: capitalize;
 	font-size: 24px;
 	color: #6c4379;
+	font-family: 'Hind', sans-serif;
+	font-weight: 550;
 }
 
 .hero-text {
@@ -206,7 +212,7 @@ a {
 
 img {
 	/* width: 100%; */
-	height: 100%;
+	height:100%;
 }
 
 .tempus-btn {
@@ -216,3 +222,57 @@ img {
 }
 
 /* section-4  */
+.sec-4-hero {
+	display: flex;
+	justify-content: space-between;
+}
+
+input {
+	padding: 12px 18px;
+	text-align: left;
+}
+
+textarea {
+	display: block;
+	margin-top: 20px;
+	color: gray;
+}
+
+.col-4-r-1{
+	width: 50%;
+}
+
+.col-4-r-2 {
+	width: 50%;
+	border-left: 1px solid #387053;
+	
+}
+.social-links {
+	display: block;
+	margin-left: 30px;
+	padding: 8px 0;
+}
+
+.fab, .fas {
+	font-size: 24px;
+	color: #387053;
+	margin-right: 8px;
+}
+
+span {
+	font-size:18px;
+	color:#6c4379;
+	text-transform: capitalize;
+}
+
+/* footer  */
+.footer {
+	padding: 30px;
+}
+.copy-right {
+	color: #387053;
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	text-transform: capitalize;
+}
