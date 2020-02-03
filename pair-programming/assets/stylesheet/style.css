@@ -193,7 +193,7 @@ a {
 
 /* section-3  */
 .sec-3 {
-	background-color: white;
+	background-color: #fdfaf2;
 }
 .main-container {
 	box-shadow: 4px 4px 12px #e4dede;
@@ -222,6 +222,7 @@ img {
 }
 
 /* section-4  */
+
 .sec-4-hero {
 	display: flex;
 	justify-content: space-between;
